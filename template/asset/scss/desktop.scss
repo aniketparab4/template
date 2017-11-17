@@ -1,0 +1,26 @@
+@media only screen and (min-width: 769px) {
+	.visible-only-mobile {display: none!important;}
+    .visible-not-mobile {
+    	display: block!important;
+
+    	ul {
+    		display: inline;
+    		li a{
+	    		display: inline;
+	    	}
+	    }
+    }
+    .news-head {  
+        padding-top: 7%;
+        padding-bottom: 3%;
+    }
+} 
+
+
+.hero-banner {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    bottom: 30%;
+    right: 0;
+}
